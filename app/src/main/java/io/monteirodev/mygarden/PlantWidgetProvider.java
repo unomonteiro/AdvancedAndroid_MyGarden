@@ -1,4 +1,4 @@
-package com.example.android.mygarden;
+package io.monteirodev.mygarden;
 
 /*
  * Copyright (C) 2017 The Android Open Source Project
@@ -28,9 +28,9 @@ import android.util.Log;
 import android.view.View;
 import android.widget.RemoteViews;
 
-import com.example.android.mygarden.provider.PlantContract;
-import com.example.android.mygarden.ui.MainActivity;
-import com.example.android.mygarden.ui.PlantDetailActivity;
+import io.monteirodev.mygarden.provider.PlantContract;
+import io.monteirodev.mygarden.ui.MainActivity;
+import io.monteirodev.mygarden.ui.PlantDetailActivity;
 
 public class PlantWidgetProvider extends AppWidgetProvider {
 

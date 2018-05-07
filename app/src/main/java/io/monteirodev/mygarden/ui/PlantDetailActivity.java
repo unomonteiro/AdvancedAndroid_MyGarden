@@ -1,4 +1,4 @@
-package com.example.android.mygarden.ui;
+package io.monteirodev.mygarden.ui;
 
 /*
 * Copyright (C) 2017 The Android Open Source Project
@@ -29,19 +29,19 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.android.mygarden.PlantWateringService;
-import com.example.android.mygarden.R;
-import com.example.android.mygarden.provider.PlantContract;
-import com.example.android.mygarden.utils.PlantUtils;
+import io.monteirodev.mygarden.PlantWateringService;
+import io.monteirodev.mygarden.R;
+import io.monteirodev.mygarden.provider.PlantContract;
+import io.monteirodev.mygarden.utils.PlantUtils;
 
-import static com.example.android.mygarden.provider.PlantContract.BASE_CONTENT_URI;
-import static com.example.android.mygarden.provider.PlantContract.PATH_PLANTS;
+import static io.monteirodev.mygarden.provider.PlantContract.BASE_CONTENT_URI;
+import static io.monteirodev.mygarden.provider.PlantContract.PATH_PLANTS;
 
 public class PlantDetailActivity extends AppCompatActivity
         implements LoaderManager.LoaderCallbacks<Cursor> {
 
     private static final int SINGLE_LOADER_ID = 200;
-    public static final String EXTRA_PLANT_ID = "com.example.android.mygarden.extra.PLANT_ID";
+    public static final String EXTRA_PLANT_ID = "io.monteirodev.mygarden.extra.PLANT_ID";
     long mPlantId;
 
     @Override

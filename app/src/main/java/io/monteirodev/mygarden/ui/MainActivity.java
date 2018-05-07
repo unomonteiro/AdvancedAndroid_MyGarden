@@ -1,4 +1,4 @@
-package com.example.android.mygarden.ui;
+package io.monteirodev.mygarden.ui;
 
 /*
 * Copyright (C) 2017 The Android Open Source Project
@@ -29,11 +29,12 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.example.android.mygarden.R;
 
-import static com.example.android.mygarden.provider.PlantContract.BASE_CONTENT_URI;
-import static com.example.android.mygarden.provider.PlantContract.PATH_PLANTS;
-import static com.example.android.mygarden.provider.PlantContract.PlantEntry;
+import io.monteirodev.mygarden.R;
+
+import static io.monteirodev.mygarden.provider.PlantContract.BASE_CONTENT_URI;
+import static io.monteirodev.mygarden.provider.PlantContract.PATH_PLANTS;
+import static io.monteirodev.mygarden.provider.PlantContract.PlantEntry;
 
 public class MainActivity
         extends AppCompatActivity

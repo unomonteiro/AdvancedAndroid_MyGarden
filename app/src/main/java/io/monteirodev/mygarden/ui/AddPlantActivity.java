@@ -1,4 +1,4 @@
-package com.example.android.mygarden.ui;
+package io.monteirodev.mygarden.ui;
 
 /*
 * Copyright (C) 2017 The Android Open Source Project
@@ -24,9 +24,9 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.example.android.mygarden.PlantWateringService;
-import com.example.android.mygarden.R;
-import com.example.android.mygarden.provider.PlantContract;
+import io.monteirodev.mygarden.PlantWateringService;
+import io.monteirodev.mygarden.R;
+import io.monteirodev.mygarden.provider.PlantContract;
 
 public class AddPlantActivity extends AppCompatActivity {
     private RecyclerView mTypesRecyclerView;

@@ -1,4 +1,4 @@
-package com.example.android.mygarden.ui;
+package io.monteirodev.mygarden.ui;
 
 
 import android.content.Context;
@@ -11,7 +11,7 @@ import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.example.android.mygarden.R;
+import io.monteirodev.mygarden.R;
 
 public class WaterLevelView extends View {
 

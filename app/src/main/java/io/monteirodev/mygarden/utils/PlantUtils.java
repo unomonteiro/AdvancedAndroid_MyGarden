@@ -1,4 +1,4 @@
-package com.example.android.mygarden.utils;
+package io.monteirodev.mygarden.utils;
 
 /*
 * Copyright (C) 2017 The Android Open Source Project
@@ -20,7 +20,7 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 
-import com.example.android.mygarden.R;
+import io.monteirodev.mygarden.R;
 
 public class PlantUtils {
 

@@ -1,4 +1,4 @@
-package com.example.android.mygarden.provider;
+package io.monteirodev.mygarden.provider;
 
 /*
 * Copyright (C) 2017 The Android Open Source Project
@@ -29,7 +29,7 @@ import android.support.annotation.NonNull;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import static com.example.android.mygarden.provider.PlantContract.PlantEntry;
+import static io.monteirodev.mygarden.provider.PlantContract.PlantEntry;
 
 
 public class PlantContentProvider extends ContentProvider {

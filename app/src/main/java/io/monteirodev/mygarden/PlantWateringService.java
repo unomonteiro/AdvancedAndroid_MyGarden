@@ -1,4 +1,4 @@
-package com.example.android.mygarden;
+package io.monteirodev.mygarden;
 
 /*
 * Copyright (C) 2017 The Android Open Source Project
@@ -26,12 +26,12 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
 
-import com.example.android.mygarden.provider.PlantContract;
-import com.example.android.mygarden.utils.PlantUtils;
+import io.monteirodev.mygarden.provider.PlantContract;
+import io.monteirodev.mygarden.utils.PlantUtils;
 
-import static com.example.android.mygarden.provider.PlantContract.BASE_CONTENT_URI;
-import static com.example.android.mygarden.provider.PlantContract.INVALID_PLANT_ID;
-import static com.example.android.mygarden.provider.PlantContract.PATH_PLANTS;
+import static io.monteirodev.mygarden.provider.PlantContract.BASE_CONTENT_URI;
+import static io.monteirodev.mygarden.provider.PlantContract.INVALID_PLANT_ID;
+import static io.monteirodev.mygarden.provider.PlantContract.PATH_PLANTS;
 
 /**
  * An {@link IntentService} subclass for handling asynchronous task requests in
@@ -39,9 +39,9 @@ import static com.example.android.mygarden.provider.PlantContract.PATH_PLANTS;
  */
 public class PlantWateringService extends IntentService {
 
-    public static final String ACTION_WATER_PLANT = "com.example.android.mygarden.action.water_plant";
-    public static final String ACTION_UPDATE_PLANT_WIDGETS = "com.example.android.mygarden.action.update_plant_widgets";
-    public static final String EXTRA_PLANT_ID = "com.example.android.mygarden.extra.PLANT_ID";;
+    public static final String ACTION_WATER_PLANT = "io.monteirodev.mygarden.action.water_plant";
+    public static final String ACTION_UPDATE_PLANT_WIDGETS = "io.monteirodev.mygarden.action.update_plant_widgets";
+    public static final String EXTRA_PLANT_ID = "io.monteirodev.mygarden.extra.PLANT_ID";
 
     public PlantWateringService() {
         super("PlantWateringService");

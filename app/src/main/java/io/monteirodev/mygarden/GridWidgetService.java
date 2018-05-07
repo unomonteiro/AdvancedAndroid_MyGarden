@@ -1,4 +1,4 @@
-package com.example.android.mygarden;
+package io.monteirodev.mygarden;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,12 +9,12 @@ import android.view.View;
 import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
 
-import com.example.android.mygarden.provider.PlantContract;
-import com.example.android.mygarden.ui.PlantDetailActivity;
-import com.example.android.mygarden.utils.PlantUtils;
+import io.monteirodev.mygarden.provider.PlantContract;
+import io.monteirodev.mygarden.ui.PlantDetailActivity;
+import io.monteirodev.mygarden.utils.PlantUtils;
 
-import static com.example.android.mygarden.provider.PlantContract.BASE_CONTENT_URI;
-import static com.example.android.mygarden.provider.PlantContract.PATH_PLANTS;
+import static io.monteirodev.mygarden.provider.PlantContract.BASE_CONTENT_URI;
+import static io.monteirodev.mygarden.provider.PlantContract.PATH_PLANTS;
 
 public class GridWidgetService extends RemoteViewsService {
 
